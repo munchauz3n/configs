@@ -8,6 +8,12 @@ set tabstop=2
 " Set column width indicator to 80 characters
 set colorcolumn=80
 
+" Highlight cursor line underneath the cursor horizontally.
+set cursorline
+
+" Highlight cursor line underneath the cursor vertically.
+set cursorcolumn
+
 " Highlight tabs and trailing spaces
 set listchars=tab:>-,trail:-
 set list

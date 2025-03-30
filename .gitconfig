@@ -1,0 +1,35 @@
+[color]
+    ui = always
+[user]
+    name = <user>
+    email = <mail>
+[core]
+    autocrlf = false
+    filemode = true
+    symlinks = true
+    editor = vim
+[difftool]
+    prompt = false
+[merge]
+    tool = meld
+[credential]
+    helper = cache
+[format]
+    subjectPrefix = CHANGE
+    suffix = .patch
+    numbered = auto
+    signOff = false
+    coverLetter = false
+[alias]
+    co = checkout
+    br = branch -av
+    ci = commit
+    st = status
+    head = log --decorate -1 HEAD
+    h = log --oneline --decorate -1 HEAD
+    visual = !gitk
+    l = log --oneline --decorate
+    ll = log --oneline --decorate --graph
+    m = merge -e --log
+[push]
+    default = simple

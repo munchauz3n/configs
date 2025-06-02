@@ -1,10 +1,10 @@
 # Various configuration files
 ```bash
-curl -o .vimrc https://github.com/munchauz3n/configs/blob/main/.vimrc
+curl -o .vimrc https://raw.githubusercontent.com/munchauz3n/configs/refs/heads/main/.vimrc
 ```
 ```bash
-curl -o .gitconfig https://github.com/munchauz3n/configs/blob/main/.gitconfig
+curl -o .gitconfig https://raw.githubusercontent.com/munchauz3n/configs/refs/heads/main/.gitconfig
 ```
 ```bash
-curl -o .bash_aliases https://github.com/munchauz3n/configs/blob/main/.bash_aliases
+curl -o .bash_aliases https://raw.githubusercontent.com/munchauz3n/configs/refs/heads/main/.bash_aliases
 ```
